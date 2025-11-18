@@ -3,23 +3,23 @@
 // Website related settings
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
+  title2: "Ishan",
   logo_name: "Ishan.c",
   customGreeting: "hey i am ishan",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  nickname: "Ishan_dai",
+  full_name: "Ishan chaulagian",
+  // subTitle:
+  //   "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  mail: "mailto:Ishanchaulagain30@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -36,12 +36,12 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS and Angular",
+        "⚡ Building responsive website front end using ReactJS ",
         "⚡ Developing mobile applications using Flutter",
-        "⚡ Backend development using NodeJS, ExpressJS and Flask",
+        "⚡ Backend development using NodeJSand Flask",
       ],
       softwareSkills: [
         {
@@ -66,20 +66,20 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
+        // {
+        //   skillName: "PHP",
+        //   fontAwesomeClassname: "simple-icons:php",
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
         // Kotlin removed
         {
           skillName: "Dart",
@@ -88,28 +88,28 @@ const skills = {
             color: "#29B0EE",
           },
         },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "Go",
+        //   fontAwesomeClassname: "simple-icons:go",
+        //   style: {
+        //     color: "#00A7D0",
+        //   },
+        // },
+        // {
+        //   skillName: "Visual Basic",
+        //   fontAwesomeClassname: "simple-icons:dot-net",
+        //   style: {
+        //     color: "#029FCE",
+        //   },
+        // },
+        // {
+        //   skillName: "C#",
+        //   fontAwesomeClassname: "simple-icons:csharp",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#3776AB",
+        //   },
+        // },
         {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:c",
@@ -131,15 +131,15 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "simple-icons:nextdotjs",
-          style: {
-            color: "#FFFFFF",
-            backgroundColor: "#1D1D1D",
-            borderRadius: "50%",
-          },
-        },
+        // {
+        //   skillName: "NextJS",
+        //   fontAwesomeClassname: "simple-icons:nextdotjs",
+        //   style: {
+        //     color: "#FFFFFF",
+        //     backgroundColor: "#1D1D1D",
+        //     borderRadius: "50%",
+        //   },
+        // },
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -147,13 +147,13 @@ const skills = {
             color: "#339933",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#439743",
+        //   },
+        // },
         // GraphQL removed
         // Android removed
         {
@@ -183,74 +183,74 @@ const skills = {
       ],
     },
 
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps on GCP and AWS",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   fileName: "CloudInfraImg",
+    //   skills: [
+    //     "⚡ Certified AWS Developer Associate and Cloud Practioner",
+    //     "⚡ Experience working on multiple cloud platforms",
+    //     "⚡ Experience hosting and managing web apps on GCP and AWS",
+    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "GCP",
+    //       fontAwesomeClassname: "simple-icons:googlecloud",
+    //       style: {
+    //         color: "#4285F4",
+    //       },
+    //     },
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "simple-icons:amazonaws",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Netlify",
+    //       fontAwesomeClassname: "simple-icons:netlify",
+    //       style: {
+    //         color: "#38AFBB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Heroku",
+    //       fontAwesomeClassname: "simple-icons:heroku",
+    //       style: {
+    //         color: "#6863A6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#1488C6",
+    //       },
+    //     },
+    //   ],
+    // },
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
+        "⚡ working with Computer Vision and NLP projects",
+        // "⚡ Certifications by deeplearning.ai and Stanford Online",
+        "⚡ Experience with 2+ Projects",
       ],
       softwareSkills: [
         {
@@ -260,14 +260,14 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
+        // {
+        //   skillName: "Keras",
+        //   fontAwesomeClassname: "simple-icons:keras",
+        //   style: {
+        //     backgroundColor: "white",
+        //     color: "#D00000",
+        //   },
+        // },
         {
           skillName: "PyTorch",
           fontAwesomeClassname: "logos-pytorch",
